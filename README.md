@@ -48,17 +48,12 @@ This bot allows you to stream high-quality audio from YouTube, create a queue, a
    cd discord-music-bot
    ```
 
-2. **Install the magic:**  
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Get your bot token & save it in a `.env` file like a responsible adult:**  
+2. **Get your bot token & save it in a `.env` file like a responsible adult:**  
    ```sh
    discord_token=YOUR_BOT_TOKEN_HERE
    ```
 
-4. **Run it (and pray):**  
+3. **Run it (and pray):**  
    ```sh
    python bot.py
    ```
