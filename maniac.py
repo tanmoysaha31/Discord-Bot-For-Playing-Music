@@ -24,6 +24,7 @@ def run_bot():
         'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5'
     }
 
+
     @client.event
     async def on_ready():
         print(f'{client.user} is now jamming')
