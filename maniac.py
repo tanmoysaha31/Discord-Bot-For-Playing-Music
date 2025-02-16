@@ -56,6 +56,7 @@ def run_bot():
             else:
                 print("No voice client available for guild", guild_id)
 
+
     @client.event
     async def on_message(message):
         # Avoid responding to the bot's own messages
